@@ -1,0 +1,11 @@
+﻿_row_index,job_id,title,industry,status,technical_skills,soft_skills,tools_and_technologies,certifications,licenses,education_required,experience_required,languages
+5122,568e7ed7-556b-415e-8a1d-bb32984fc270,Data Engineer & Senior Data Engineer,Other,success,[],[],[],[],[],,,[]
+10016,eee2892c-54a9-4e8c-9419-9f98a7a2d38e,Assembly Operative,Manufacturing,success,[],[],[],[],[],,[],[]
+14415,d0b61d5a-6f00-40d7-a57d-c64c1b05dcb5,IT Data Analyst Intern / Student Placement Year,IT and Technology,success,[],[],[],[],[],Student Placement Year,,[]
+992,3295961d-7a85-4a1b-ba95-5b28e0b380e2,"Field Market Research Interviewer, Paid per Shift, Car Required",Other,success,[],[],[],[],[],,,[]
+12108,3c585e05-bd0d-43f3-9a51-d63ff93e0740,Electrical & Instrumentation Technician,Other,success,['Electrical Installation'],[],[],[],[],,Experienced,[]
+7848,9e7e3f90-66d3-4f23-a662-fbbce8af84a8,Electrical Assets Engineer,Other,success,['Electrical Installation'],"['Communication', 'Teamwork', 'Problem Solving', 'Attention to Detail']",[],[],[],,,[]
+17889,e91b6e7c-9820-4808-ace0-b0a8854ec7c0,Become a Primary school Tutor in Skegoniel – Flexible & Remote,Education,success,[],"['Communication', 'Listening', 'Interest in helping students succeed']",[],[],[],,Prior tutoring,[]
+15776,4858421d-90a5-4502-ae27-e5b2e117cc6f,Machine Operator (4 Days a Week),Manufacturing,success,[],[],[],[],[],,,[]
+989,10ff2e09-9184-4830-9392-db07a8ec76c7,Functional Specialist,Other,success,[],[],[],[],[],,,[]
+6087,03d8898b-0e33-4194-aa5b-23422a4de8bf,Personal Injury Fee Earner,Other,success,[],"['Customer Service', 'Problem Solving', 'Attention to Detail', 'Time Management']",[],[],[],,experienced,[]

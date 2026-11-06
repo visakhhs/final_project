@@ -1,0 +1,732 @@
+2026-07-22 23:25:23 | INFO | Logger is working successfully!
+2026-07-22 23:25:23 | WARNING | This is a warning.
+2026-07-22 23:25:23 | ERROR | This is a test error.
+2026-07-23 00:34:23 | INFO | ============================================================
+2026-07-23 00:34:23 | INFO | Starting Adzuna data cleaning...
+2026-07-23 00:34:23 | INFO | Loading dataset from: C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\adzuna_jobs.csv
+2026-07-23 00:34:24 | INFO | Original dataset shape: (6275, 17)
+2026-07-23 00:34:24 | INFO | Duplicate jobs removed: 0
+2026-07-23 00:34:24 | INFO | Shape after duplicate removal: (6275, 17)
+2026-07-23 00:34:24 | INFO | Rows removed (missing title/description): 0
+2026-07-23 00:34:24 | INFO | Shape after removing missing values: (6275, 17)
+2026-07-23 00:34:24 | INFO | Rows removed (invalid dates): 0
+2026-07-23 00:34:24 | INFO | Created salary_avg column.
+2026-07-23 00:34:24 | INFO | Filled missing contract information.
+2026-07-23 00:34:24 | INFO | Standardized text columns.
+2026-07-23 00:34:24 | INFO | Clean dataset saved to: C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\adzuna_clean.csv
+2026-07-23 00:34:24 | INFO | Final dataset shape: (6275, 18)
+2026-07-23 00:34:24 | INFO | Adzuna data cleaning completed successfully.
+2026-07-23 00:34:24 | INFO | ============================================================
+2026-07-23 00:43:52 | INFO | ============================================================
+2026-07-23 00:43:52 | INFO | Starting Adzuna data cleaning...
+2026-07-23 00:43:52 | INFO | Loading dataset from: C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\adzuna_jobs.csv
+2026-07-23 00:43:52 | INFO | Original dataset shape: (6275, 17)
+2026-07-23 00:43:52 | INFO | Duplicate jobs removed: 0
+2026-07-23 00:43:52 | INFO | Shape after duplicate removal: (6275, 17)
+2026-07-23 00:43:52 | INFO | Rows removed (missing title/description): 0
+2026-07-23 00:43:52 | INFO | Shape after removing missing values: (6275, 17)
+2026-07-23 00:43:52 | INFO | Rows removed (invalid dates): 0
+2026-07-23 00:43:52 | INFO | Created salary_avg column.
+2026-07-23 00:43:53 | INFO | Filled missing contract information.
+2026-07-23 00:43:53 | INFO | Standardized text columns.
+2026-07-23 00:43:53 | INFO | Clean dataset saved to: C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\adzuna_clean.csv
+2026-07-23 00:43:53 | INFO | Final dataset shape: (6275, 18)
+2026-07-23 00:43:53 | INFO | Adzuna data cleaning completed successfully.
+2026-07-23 00:43:53 | INFO | ============================================================
+2026-07-23 00:49:39 | INFO | ============================================================
+2026-07-23 00:49:39 | INFO | Starting Reed data cleaning...
+2026-07-23 00:49:39 | INFO | Loading dataset from: C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\reed\reed_jobs.csv
+2026-07-23 00:49:39 | INFO | Original dataset shape: (11227, 15)
+2026-07-23 00:49:39 | INFO | Duplicate jobs removed: 0
+2026-07-23 00:49:39 | INFO | Shape after duplicate removal: (11227, 15)
+2026-07-23 00:49:39 | INFO | Rows removed (missing title/description): 0
+2026-07-23 00:49:39 | INFO | Rows removed (invalid dates): 0
+2026-07-23 00:49:39 | INFO | Created salary_avg column.
+2026-07-23 00:49:39 | INFO | Dropped empty profile columns.
+2026-07-23 00:49:39 | INFO | Standardized text columns.
+2026-07-23 00:49:40 | INFO | Clean dataset saved to: C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\reed_clean.csv
+2026-07-23 00:49:40 | INFO | Final dataset shape: (11227, 14)
+2026-07-23 00:49:40 | INFO | Reed data cleaning completed successfully.
+2026-07-23 00:49:40 | INFO | ============================================================
+2026-07-23 00:55:18 | INFO | ============================================================
+2026-07-23 00:55:18 | INFO | Starting dataset merge...
+2026-07-23 00:55:19 | INFO | Adzuna shape: (6275, 18)
+2026-07-23 00:55:19 | INFO | Reed shape: (11227, 14)
+2026-07-23 00:55:19 | INFO | Merged shape: (17502, 13)
+2026-07-23 00:55:19 | INFO | Duplicates removed: 189
+2026-07-23 00:59:00 | INFO | ============================================================
+2026-07-23 00:59:00 | INFO | Starting dataset merge...
+2026-07-23 00:59:01 | INFO | Adzuna shape: (6275, 18)
+2026-07-23 00:59:01 | INFO | Reed shape: (11227, 14)
+2026-07-23 00:59:01 | INFO | Merged shape: (17502, 13)
+2026-07-23 00:59:01 | INFO | Duplicates removed: 189
+2026-07-23 00:59:01 | INFO | Master dataset saved to: C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\master_jobs.csv
+2026-07-23 00:59:01 | INFO | Final shape: (17313, 13)
+2026-07-23 00:59:01 | INFO | Dataset merge completed successfully.
+2026-07-23 00:59:01 | INFO | ============================================================
+2026-07-23 01:02:31 | INFO | ======================================================================
+2026-07-23 01:02:31 | INFO | STARTING DATASET MERGE
+2026-07-23 01:02:31 | INFO | ======================================================================
+2026-07-23 01:02:32 | INFO | Loaded Adzuna: (6275, 18)
+2026-07-23 01:02:32 | INFO | Loaded Reed: (11227, 14)
+2026-07-23 01:02:32 | INFO | Merged dataset: (17502, 13)
+2026-07-23 01:02:32 | INFO | Rows removed (missing required fields): 0
+2026-07-23 01:02:32 | INFO | Duplicate jobs removed: 189
+2026-07-23 01:02:32 | INFO | Generated internal job IDs.
+2026-07-23 01:02:32 | INFO | --------------------------------------------------
+2026-07-23 01:02:32 | INFO | MERGE SUMMARY
+2026-07-23 01:02:32 | INFO | --------------------------------------------------
+2026-07-23 01:02:32 | INFO | Total Jobs: 17,313
+2026-07-23 01:02:32 | INFO | Adzuna Jobs: 6,275
+2026-07-23 01:02:32 | INFO | Reed Jobs: 11,038
+2026-07-23 01:02:32 | INFO | Average Salary Available: 15,175
+2026-07-23 01:02:32 | INFO | Jobs without salary: 2,138
+2026-07-23 01:02:32 | INFO | Date Range: 2019-10-16 11:16:35 -> 2026-07-22 14:31:56
+2026-07-23 01:02:32 | INFO | --------------------------------------------------
+2026-07-23 01:02:33 | INFO | Master dataset saved to:
+C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\master_jobs.csv
+2026-07-23 01:02:33 | INFO | Final Shape: (17313, 14)
+2026-07-23 01:02:33 | INFO | ======================================================================
+2026-07-23 01:02:33 | INFO | MERGE COMPLETED SUCCESSFULLY
+2026-07-23 01:02:33 | INFO | ======================================================================
+2026-07-23 01:08:04 | INFO | ======================================================================
+2026-07-23 01:08:04 | INFO | STARTING DATASET MERGE
+2026-07-23 01:08:04 | INFO | ======================================================================
+2026-07-23 01:08:04 | INFO | Loaded Adzuna: (6275, 18)
+2026-07-23 01:08:04 | INFO | Loaded Reed: (11227, 14)
+2026-07-23 01:08:04 | INFO | Merged dataset: (17502, 13)
+2026-07-23 01:08:04 | INFO | Rows removed (missing required fields): 0
+2026-07-23 01:08:04 | INFO | Duplicate jobs removed: 189
+2026-07-23 01:08:04 | INFO | Generated internal job IDs.
+2026-07-23 01:08:04 | INFO | --------------------------------------------------
+2026-07-23 01:08:04 | INFO | MERGE SUMMARY
+2026-07-23 01:08:04 | INFO | --------------------------------------------------
+2026-07-23 01:08:04 | INFO | Total Jobs: 17,313
+2026-07-23 01:08:04 | INFO | Adzuna Jobs: 6,275
+2026-07-23 01:08:04 | INFO | Reed Jobs: 11,038
+2026-07-23 01:08:04 | INFO | Average Salary Available: 15,175
+2026-07-23 01:08:04 | INFO | Jobs without salary: 2,138
+2026-07-23 01:08:04 | INFO | Date Range: 2019-10-16 11:16:35 -> 2026-07-22 14:31:56
+2026-07-23 01:08:04 | INFO | --------------------------------------------------
+2026-07-23 01:08:05 | INFO | Master dataset saved to:
+C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\master_jobs.csv
+2026-07-23 01:08:05 | INFO | Final Shape: (17313, 14)
+2026-07-23 01:08:05 | INFO | ======================================================================
+2026-07-23 01:08:05 | INFO | MERGE COMPLETED SUCCESSFULLY
+2026-07-23 01:08:05 | INFO | ======================================================================
+2026-07-25 00:31:26 | INFO | Starting job collection...
+2026-07-25 00:31:29 | INFO | Downloaded page 1: 50 jobs
+2026-07-25 00:31:29 | INFO | Downloaded page 2: 50 jobs
+2026-07-25 00:31:30 | INFO | Downloaded page 3: 50 jobs
+2026-07-25 00:31:31 | INFO | Downloaded page 4: 50 jobs
+2026-07-25 00:31:32 | INFO | Downloaded page 5: 50 jobs
+2026-07-25 00:31:32 | INFO | Collected 250 jobs.
+2026-07-25 00:31:53 | INFO | Starting job collection...
+2026-07-25 00:31:56 | INFO | Downloaded page 1: 50 jobs
+2026-07-25 00:31:56 | INFO | Downloaded page 2: 50 jobs
+2026-07-25 00:31:57 | INFO | Downloaded page 3: 50 jobs
+2026-07-25 00:31:57 | INFO | Downloaded page 4: 50 jobs
+2026-07-25 00:31:58 | INFO | Downloaded page 5: 50 jobs
+2026-07-25 00:31:58 | INFO | Collected 250 jobs.
+2026-07-25 00:32:52 | INFO | Saved 250 jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\incoming_adzuna.csv
+2026-07-25 00:33:13 | INFO | ===== Adzuna Update Started =====
+2026-07-25 00:33:13 | INFO | Starting job collection...
+2026-07-25 00:33:15 | INFO | Downloaded page 1: 50 jobs
+2026-07-25 00:33:16 | INFO | Downloaded page 2: 50 jobs
+2026-07-25 00:33:17 | INFO | Downloaded page 3: 50 jobs
+2026-07-25 00:33:18 | INFO | Downloaded page 4: 50 jobs
+2026-07-25 00:33:19 | INFO | Downloaded page 5: 50 jobs
+2026-07-25 00:33:19 | INFO | Collected 250 jobs.
+2026-07-25 00:33:19 | INFO | Saved 250 jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\incoming_adzuna.csv
+2026-07-25 00:33:19 | INFO | ===== Adzuna Update Completed =====
+2026-07-25 00:33:50 | INFO | Saved 250 jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\incoming_adzuna.csv
+2026-07-25 00:33:51 | INFO | ===== Adzuna Update Started =====
+2026-07-25 00:33:51 | INFO | Starting job collection...
+2026-07-25 00:33:53 | INFO | Downloaded page 1: 50 jobs
+2026-07-25 00:33:54 | INFO | Downloaded page 2: 50 jobs
+2026-07-25 00:33:54 | INFO | Downloaded page 3: 50 jobs
+2026-07-25 00:33:55 | INFO | Downloaded page 4: 50 jobs
+2026-07-25 00:33:56 | INFO | Downloaded page 5: 50 jobs
+2026-07-25 00:33:56 | INFO | Collected 250 jobs.
+2026-07-25 00:33:56 | INFO | Saved 250 jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\incoming_adzuna.csv
+2026-07-25 00:33:56 | INFO | ===== Adzuna Update Completed =====
+2026-07-25 00:47:57 | WARNING | master_jobs.csv is missing 'source' or 'id' columns.
+2026-07-25 00:47:57 | INFO | Checking for new jobs...
+2026-07-25 00:49:03 | INFO | Downloaded page 1: 50 jobs
+2026-07-25 00:49:03 | INFO | Page 1: 50 new jobs
+2026-07-25 00:49:04 | INFO | Downloaded page 2: 50 jobs
+2026-07-25 00:49:04 | INFO | Page 2: 50 new jobs
+2026-07-25 00:49:06 | INFO | Downloaded page 3: 50 jobs
+2026-07-25 00:49:06 | INFO | Page 3: 50 new jobs
+2026-07-25 00:49:07 | INFO | Downloaded page 4: 50 jobs
+2026-07-25 00:49:07 | INFO | Page 4: 50 new jobs
+2026-07-25 00:49:08 | INFO | Downloaded page 5: 50 jobs
+2026-07-25 00:49:08 | INFO | Page 5: 50 new jobs
+2026-07-25 00:49:08 | INFO | Collected 250 new jobs.
+2026-07-25 00:49:08 | INFO | Saved 250 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\incoming_adzuna.csv
+2026-07-25 00:49:08 | INFO | ===== Adzuna Update Started =====
+2026-07-25 00:49:08 | WARNING | master_jobs.csv is missing 'source' or 'id' columns.
+2026-07-25 00:49:08 | INFO | Checking for new jobs...
+2026-07-25 00:50:14 | INFO | Downloaded page 1: 50 jobs
+2026-07-25 00:50:14 | INFO | Page 1: 50 new jobs
+2026-07-25 00:50:15 | INFO | Downloaded page 2: 50 jobs
+2026-07-25 00:50:15 | INFO | Page 2: 50 new jobs
+2026-07-25 00:50:15 | INFO | Downloaded page 3: 50 jobs
+2026-07-25 00:50:15 | INFO | Page 3: 50 new jobs
+2026-07-25 00:50:16 | INFO | Downloaded page 4: 50 jobs
+2026-07-25 00:50:16 | INFO | Page 4: 50 new jobs
+2026-07-25 00:50:17 | INFO | Downloaded page 5: 50 jobs
+2026-07-25 00:50:17 | INFO | Page 5: 50 new jobs
+2026-07-25 00:50:17 | INFO | Collected 250 new jobs.
+2026-07-25 00:50:17 | INFO | Saved 250 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\incoming_adzuna.csv
+2026-07-25 00:50:17 | INFO | ===== Adzuna Update Completed =====
+2026-07-25 01:12:29 | INFO | ===== Adzuna Update Started =====
+2026-07-25 01:12:29 | WARNING | master_jobs.csv is missing 'source' or 'id' columns.
+2026-07-25 01:12:29 | INFO | Checking for new jobs...
+2026-07-25 01:13:35 | INFO | Downloaded page 1: 50 jobs
+2026-07-25 01:13:35 | INFO | Page 1: 50 new jobs
+2026-07-25 01:13:36 | INFO | Downloaded page 2: 50 jobs
+2026-07-25 01:13:36 | INFO | Page 2: 50 new jobs
+2026-07-25 01:13:37 | INFO | Downloaded page 3: 50 jobs
+2026-07-25 01:13:37 | INFO | Page 3: 50 new jobs
+2026-07-25 01:13:38 | INFO | Downloaded page 4: 50 jobs
+2026-07-25 01:13:38 | INFO | Page 4: 50 new jobs
+2026-07-25 01:13:39 | INFO | Downloaded page 5: 50 jobs
+2026-07-25 01:13:39 | INFO | Page 5: 50 new jobs
+2026-07-25 01:13:39 | INFO | Collected 250 new jobs.
+2026-07-25 01:13:39 | INFO | Saved 250 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\incoming_adzuna.csv
+2026-07-25 01:13:39 | INFO | ===== Adzuna Update Completed =====
+2026-07-25 01:20:22 | INFO | ===== Adzuna Update Started =====
+2026-07-25 01:20:23 | INFO | Loaded 6275 existing IDs.
+2026-07-25 01:20:23 | INFO | Checking for new jobs...
+2026-07-25 01:20:33 | INFO | Downloaded page 1: 50 jobs
+2026-07-25 01:20:33 | INFO | Page 1: 50 new jobs
+2026-07-25 01:20:33 | INFO | Downloaded page 2: 50 jobs
+2026-07-25 01:20:33 | INFO | Page 2: 50 new jobs
+2026-07-25 01:20:34 | INFO | Downloaded page 3: 50 jobs
+2026-07-25 01:20:34 | INFO | Page 3: 50 new jobs
+2026-07-25 01:20:35 | INFO | Downloaded page 4: 50 jobs
+2026-07-25 01:20:35 | INFO | Page 4: 50 new jobs
+2026-07-25 01:20:36 | INFO | Downloaded page 5: 50 jobs
+2026-07-25 01:20:36 | INFO | Page 5: 50 new jobs
+2026-07-25 01:20:36 | INFO | Collected 250 new jobs.
+2026-07-25 01:20:36 | INFO | Saved 250 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\incoming_adzuna.csv
+2026-07-25 01:20:36 | INFO | ===== Adzuna Update Completed =====
+2026-07-25 01:22:03 | INFO | Downloaded page 1: 50 jobs
+2026-07-25 01:23:08 | INFO | Loaded 6275 existing IDs.
+2026-07-25 01:23:12 | INFO | Downloaded page 1: 50 jobs
+2026-07-25 16:27:35 | INFO | ===== Adzuna Update Started =====
+2026-07-25 16:27:36 | INFO | Loaded 6275 existing IDs.
+2026-07-25 16:27:36 | INFO | Checking for new jobs...
+2026-07-25 16:27:39 | INFO | Downloaded page 1: 50 jobs
+2026-07-25 16:27:39 | INFO | Page 1: 50 new jobs
+2026-07-25 16:27:40 | INFO | Downloaded page 2: 50 jobs
+2026-07-25 16:27:40 | INFO | Page 2: 50 new jobs
+2026-07-25 16:27:41 | INFO | Downloaded page 3: 50 jobs
+2026-07-25 16:27:41 | INFO | Page 3: 50 new jobs
+2026-07-25 16:27:42 | INFO | Downloaded page 4: 50 jobs
+2026-07-25 16:27:42 | INFO | Page 4: 50 new jobs
+2026-07-25 16:27:43 | INFO | Downloaded page 5: 50 jobs
+2026-07-25 16:27:43 | INFO | Page 5: 50 new jobs
+2026-07-25 16:27:43 | INFO | Collected 250 new jobs.
+2026-07-25 16:27:43 | INFO | Saved 250 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\incoming_adzuna.csv
+2026-07-25 16:27:43 | INFO | Running Adzuna cleaning...
+2026-07-25 16:27:43 | INFO | ============================================================
+2026-07-25 16:27:43 | INFO | Starting Adzuna data cleaning...
+2026-07-25 16:27:43 | INFO | Loading dataset from: C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\adzuna_jobs.csv
+2026-07-25 16:27:43 | INFO | Original dataset shape: (6275, 17)
+2026-07-25 16:27:43 | INFO | Duplicate jobs removed: 0
+2026-07-25 16:27:43 | INFO | Shape after duplicate removal: (6275, 17)
+2026-07-25 16:27:43 | INFO | Rows removed (missing title/description): 0
+2026-07-25 16:27:43 | INFO | Shape after removing missing values: (6275, 17)
+2026-07-25 16:27:43 | INFO | Rows removed (invalid dates): 0
+2026-07-25 16:27:43 | INFO | Created salary_avg column.
+2026-07-25 16:27:43 | INFO | Filled missing contract information.
+2026-07-25 16:27:43 | INFO | Standardized text columns.
+2026-07-25 16:27:44 | INFO | Clean dataset saved to: C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\adzuna_clean.csv
+2026-07-25 16:27:44 | INFO | Final dataset shape: (6275, 18)
+2026-07-25 16:27:44 | INFO | Adzuna data cleaning completed successfully.
+2026-07-25 16:27:44 | INFO | ============================================================
+2026-07-25 16:27:44 | INFO | Updating master dataset...
+2026-07-25 16:27:44 | INFO | ======================================================================
+2026-07-25 16:27:44 | INFO | STARTING DATASET MERGE
+2026-07-25 16:27:44 | INFO | ======================================================================
+2026-07-25 16:27:45 | INFO | Loaded Adzuna: (6275, 18)
+2026-07-25 16:27:45 | INFO | Loaded Reed: (11227, 14)
+2026-07-25 16:27:45 | INFO | Merged dataset: (17502, 13)
+2026-07-25 16:27:45 | INFO | Rows removed (missing required fields): 0
+2026-07-25 16:27:45 | INFO | Duplicate jobs removed: 189
+2026-07-25 16:27:45 | INFO | Generated internal job IDs.
+2026-07-25 16:27:45 | INFO | --------------------------------------------------
+2026-07-25 16:27:45 | INFO | MERGE SUMMARY
+2026-07-25 16:27:45 | INFO | --------------------------------------------------
+2026-07-25 16:27:45 | INFO | Total Jobs: 17,313
+2026-07-25 16:27:45 | INFO | Adzuna Jobs: 6,275
+2026-07-25 16:27:45 | INFO | Reed Jobs: 11,038
+2026-07-25 16:27:45 | INFO | Average Salary Available: 15,175
+2026-07-25 16:27:45 | INFO | Jobs without salary: 2,138
+2026-07-25 16:27:45 | INFO | Date Range: 2019-10-16 11:16:35 -> 2026-07-22 14:31:56
+2026-07-25 16:27:45 | INFO | --------------------------------------------------
+2026-07-25 16:27:47 | INFO | Master dataset saved to:
+C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\master_jobs.csv
+2026-07-25 16:27:47 | INFO | Final Shape: (17313, 14)
+2026-07-25 16:27:47 | INFO | ======================================================================
+2026-07-25 16:27:47 | INFO | MERGE COMPLETED SUCCESSFULLY
+2026-07-25 16:27:47 | INFO | ======================================================================
+2026-07-25 16:27:47 | INFO | Adzuna pipeline completed successfully.
+2026-07-25 16:27:47 | INFO | ===== Adzuna Update Completed =====
+2026-07-25 17:08:14 | INFO | ===== Adzuna Update Started =====
+2026-07-25 17:08:15 | INFO | Loaded 6275 existing IDs.
+2026-07-25 17:08:15 | INFO | Checking for new jobs...
+2026-07-25 17:08:18 | INFO | Downloaded page 1: 50 jobs
+2026-07-25 17:08:18 | INFO | Page 1: 50 new jobs
+2026-07-25 17:08:19 | INFO | Downloaded page 2: 50 jobs
+2026-07-25 17:08:19 | INFO | Page 2: 50 new jobs
+2026-07-25 17:08:20 | INFO | Downloaded page 3: 50 jobs
+2026-07-25 17:08:20 | INFO | Page 3: 50 new jobs
+2026-07-25 17:08:21 | INFO | Downloaded page 4: 50 jobs
+2026-07-25 17:08:21 | INFO | Page 4: 50 new jobs
+2026-07-25 17:08:23 | INFO | Downloaded page 5: 50 jobs
+2026-07-25 17:08:23 | INFO | Page 5: 50 new jobs
+2026-07-25 17:08:23 | INFO | Collected 250 new jobs.
+2026-07-25 17:08:23 | INFO | Saved 250 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\incoming_adzuna.csv
+2026-07-25 17:08:23 | INFO | Saved 250 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\incoming_adzuna.csv
+2026-07-25 17:08:23 | INFO | Updating historical Adzuna dataset...
+2026-07-25 17:11:50 | INFO | ===== Adzuna Update Started =====
+2026-07-25 17:11:52 | INFO | Loaded 6275 existing IDs.
+2026-07-25 17:11:52 | INFO | Checking for new jobs...
+2026-07-25 17:11:55 | INFO | Downloaded page 1: 50 jobs
+2026-07-25 17:11:55 | INFO | Page 1: 50 new jobs
+2026-07-25 17:11:55 | INFO | Downloaded page 2: 50 jobs
+2026-07-25 17:11:55 | INFO | Page 2: 50 new jobs
+2026-07-25 17:11:56 | INFO | Downloaded page 3: 50 jobs
+2026-07-25 17:11:56 | INFO | Page 3: 50 new jobs
+2026-07-25 17:11:57 | INFO | Downloaded page 4: 50 jobs
+2026-07-25 17:11:57 | INFO | Page 4: 50 new jobs
+2026-07-25 17:11:57 | INFO | Downloaded page 5: 50 jobs
+2026-07-25 17:11:57 | INFO | Page 5: 50 new jobs
+2026-07-25 17:11:57 | INFO | Collected 250 new jobs.
+2026-07-25 17:11:57 | INFO | Saved 250 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\incoming_adzuna.csv
+2026-07-25 17:11:57 | INFO | Saved 250 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\incoming_adzuna.csv
+2026-07-25 17:11:57 | INFO | Updating historical Adzuna dataset...
+2026-07-25 17:11:58 | INFO | Historical dataset updated: 6525 jobs
+2026-07-25 17:11:58 | INFO | Running Adzuna cleaning...
+2026-07-25 17:11:58 | INFO | ============================================================
+2026-07-25 17:11:58 | INFO | Starting Adzuna data cleaning...
+2026-07-25 17:11:58 | INFO | Loading dataset from: C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\adzuna\adzuna_jobs.csv
+2026-07-25 17:11:59 | INFO | Original dataset shape: (6525, 17)
+2026-07-25 17:11:59 | INFO | Duplicate jobs removed: 0
+2026-07-25 17:11:59 | INFO | Shape after duplicate removal: (6525, 17)
+2026-07-25 17:11:59 | INFO | Rows removed (missing title/description): 0
+2026-07-25 17:11:59 | INFO | Shape after removing missing values: (6525, 17)
+2026-07-25 17:11:59 | INFO | Rows removed (invalid dates): 0
+2026-07-25 17:11:59 | INFO | Created salary_avg column.
+2026-07-25 17:11:59 | INFO | Filled missing contract information.
+2026-07-25 17:11:59 | INFO | Standardized text columns.
+2026-07-25 17:12:00 | INFO | Clean dataset saved to: C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\adzuna_clean.csv
+2026-07-25 17:12:00 | INFO | Final dataset shape: (6525, 18)
+2026-07-25 17:12:00 | INFO | Adzuna data cleaning completed successfully.
+2026-07-25 17:12:00 | INFO | ============================================================
+2026-07-25 17:12:00 | INFO | Updating master dataset...
+2026-07-25 17:12:00 | INFO | ======================================================================
+2026-07-25 17:12:00 | INFO | STARTING DATASET MERGE
+2026-07-25 17:12:00 | INFO | ======================================================================
+2026-07-25 17:12:01 | INFO | Loaded Adzuna: (6525, 18)
+2026-07-25 17:12:01 | INFO | Loaded Reed: (11227, 14)
+2026-07-25 17:12:01 | INFO | Merged dataset: (17752, 13)
+2026-07-25 17:12:01 | INFO | Rows removed (missing required fields): 0
+2026-07-25 17:12:01 | INFO | Duplicate jobs removed: 189
+2026-07-25 17:12:01 | INFO | Generated internal job IDs.
+2026-07-25 17:12:01 | INFO | --------------------------------------------------
+2026-07-25 17:12:01 | INFO | MERGE SUMMARY
+2026-07-25 17:12:01 | INFO | --------------------------------------------------
+2026-07-25 17:12:01 | INFO | Total Jobs: 17,563
+2026-07-25 17:12:01 | INFO | Adzuna Jobs: 6,525
+2026-07-25 17:12:01 | INFO | Reed Jobs: 11,038
+2026-07-25 17:12:01 | INFO | Average Salary Available: 15,425
+2026-07-25 17:12:01 | INFO | Jobs without salary: 2,138
+2026-07-25 17:12:01 | INFO | Date Range: 2019-10-16 11:16:35 -> 2026-07-25 16:49:17
+2026-07-25 17:12:01 | INFO | --------------------------------------------------
+2026-07-25 17:12:02 | INFO | Master dataset saved to:
+C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\master_jobs.csv
+2026-07-25 17:12:02 | INFO | Final Shape: (17563, 14)
+2026-07-25 17:12:02 | INFO | ======================================================================
+2026-07-25 17:12:02 | INFO | MERGE COMPLETED SUCCESSFULLY
+2026-07-25 17:12:03 | INFO | ======================================================================
+2026-07-25 17:12:03 | INFO | Adzuna pipeline completed successfully.
+2026-07-25 17:12:03 | INFO | ===== Adzuna Update Completed =====
+2026-07-25 17:16:10 | INFO | ===== Adzuna Update Started =====
+2026-07-25 17:16:11 | INFO | Loaded 6525 existing IDs.
+2026-07-25 17:16:11 | INFO | Checking for new jobs...
+2026-07-25 17:16:13 | INFO | Downloaded page 1: 50 jobs
+2026-07-25 17:16:13 | INFO | Page 1: 0 new jobs
+2026-07-25 17:16:13 | INFO | No more new jobs found.
+2026-07-25 17:16:13 | INFO | Collected 0 new jobs.
+2026-07-25 17:16:13 | INFO | No new jobs found.
+2026-07-28 13:09:20 | INFO | Loaded 11227 existing Reed IDs.
+2026-07-28 13:09:55 | INFO | Loaded 11227 existing Reed IDs.
+2026-07-28 13:11:27 | ERROR | Page 1 failed: 401 Client Error: Unauthorized for url: https://www.reed.co.uk/api/1.0/search?resultsToTake=100&resultsToSkip=0
+2026-07-28 13:17:36 | INFO | Loaded 11227 existing Reed IDs.
+2026-07-28 13:17:50 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 13:19:08 | INFO | Loaded 11227 existing Reed IDs.
+2026-07-28 13:19:08 | INFO | Existing Reed IDs: 11227
+2026-07-28 13:19:09 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 13:19:09 | INFO | Page 1: 96 new jobs
+2026-07-28 13:19:10 | INFO | Downloaded page 2: 100 jobs
+2026-07-28 13:19:10 | INFO | Page 2: 92 new jobs
+2026-07-28 13:19:10 | INFO | Downloaded page 3: 100 jobs
+2026-07-28 13:19:10 | INFO | Page 3: 93 new jobs
+2026-07-28 13:19:10 | INFO | Downloaded page 4: 100 jobs
+2026-07-28 13:19:10 | INFO | Page 4: 91 new jobs
+2026-07-28 13:19:11 | INFO | Downloaded page 5: 100 jobs
+2026-07-28 13:19:11 | INFO | Page 5: 92 new jobs
+2026-07-28 13:19:11 | INFO | Collected 464 new Reed jobs.
+2026-07-28 13:21:45 | INFO | ============================================================
+2026-07-28 13:21:45 | INFO | Reed Updater Started
+2026-07-28 13:21:45 | INFO | ============================================================
+2026-07-28 13:21:45 | INFO | Loaded 11227 existing Reed IDs.
+2026-07-28 13:21:45 | INFO | Existing Reed IDs: 11227
+2026-07-28 13:21:47 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 13:21:47 | INFO | Page 1: 97 new jobs
+2026-07-28 13:21:47 | INFO | Downloaded page 2: 100 jobs
+2026-07-28 13:21:47 | INFO | Page 2: 93 new jobs
+2026-07-28 13:21:47 | INFO | Downloaded page 3: 100 jobs
+2026-07-28 13:21:47 | INFO | Page 3: 91 new jobs
+2026-07-28 13:21:47 | INFO | Downloaded page 4: 100 jobs
+2026-07-28 13:21:47 | INFO | Page 4: 91 new jobs
+2026-07-28 13:21:47 | INFO | Downloaded page 5: 100 jobs
+2026-07-28 13:21:47 | INFO | Page 5: 93 new jobs
+2026-07-28 13:21:47 | INFO | Collected 465 new Reed jobs.
+2026-07-28 13:21:48 | INFO | Saved 465 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\reed\incoming_reed.csv
+2026-07-28 13:21:49 | INFO | Historical Reed dataset updated: 11692 jobs.
+2026-07-28 13:21:49 | INFO | ============================================================
+2026-07-28 13:21:49 | INFO | Reed Updater Completed
+2026-07-28 13:21:49 | INFO | ============================================================
+2026-07-28 13:24:28 | INFO | Loaded 11692 existing Reed IDs.
+2026-07-28 13:24:28 | INFO | Existing Reed IDs: 11692
+2026-07-28 13:24:29 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 13:24:29 | INFO | Page 1: 0 new jobs
+2026-07-28 13:24:29 | INFO | No new jobs on this page. Stopping update.
+2026-07-28 13:24:29 | INFO | Collected 0 new Reed jobs.
+2026-07-28 13:52:25 | INFO | ============================================================
+2026-07-28 13:52:25 | INFO | Cleaning Reed dataset...
+2026-07-28 13:52:25 | INFO | ============================================================
+2026-07-28 13:52:26 | INFO | Loaded 11692 Reed jobs.
+2026-07-28 13:52:26 | INFO | Removed 0 duplicate jobs.
+2026-07-28 13:52:27 | INFO | Saved 11692 cleaned Reed jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\reed_clean.csv
+2026-07-28 13:52:27 | INFO | ============================================================
+2026-07-28 13:52:27 | INFO | Reed cleaning completed.
+2026-07-28 13:52:27 | INFO | ============================================================
+2026-07-28 13:55:38 | INFO | Loaded 11692 existing Reed IDs.
+2026-07-28 13:55:39 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 13:55:40 | INFO | Loaded 11692 existing Reed IDs.
+2026-07-28 13:55:40 | INFO | Existing Reed IDs: 11692
+2026-07-28 13:55:41 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 13:55:41 | INFO | Page 1: 93 new jobs
+2026-07-28 13:55:41 | INFO | Downloaded page 2: 100 jobs
+2026-07-28 13:55:41 | INFO | Page 2: 93 new jobs
+2026-07-28 13:55:42 | INFO | Downloaded page 3: 100 jobs
+2026-07-28 13:55:42 | INFO | Page 3: 87 new jobs
+2026-07-28 13:55:42 | INFO | Downloaded page 4: 100 jobs
+2026-07-28 13:55:42 | INFO | Page 4: 88 new jobs
+2026-07-28 13:55:42 | INFO | Downloaded page 5: 100 jobs
+2026-07-28 13:55:42 | INFO | Page 5: 47 new jobs
+2026-07-28 13:55:42 | INFO | Collected 408 new Reed jobs.
+2026-07-28 13:55:42 | INFO | ============================================================
+2026-07-28 13:55:42 | INFO | Reed Updater Started
+2026-07-28 13:55:42 | INFO | ============================================================
+2026-07-28 13:55:43 | INFO | Loaded 11692 existing Reed IDs.
+2026-07-28 13:55:43 | INFO | Existing Reed IDs: 11692
+2026-07-28 13:55:44 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 13:55:44 | INFO | Page 1: 93 new jobs
+2026-07-28 13:55:44 | INFO | Downloaded page 2: 100 jobs
+2026-07-28 13:55:44 | INFO | Page 2: 93 new jobs
+2026-07-28 13:55:45 | INFO | Downloaded page 3: 100 jobs
+2026-07-28 13:55:45 | INFO | Page 3: 87 new jobs
+2026-07-28 13:55:45 | INFO | Downloaded page 4: 100 jobs
+2026-07-28 13:55:45 | INFO | Page 4: 88 new jobs
+2026-07-28 13:55:45 | INFO | Downloaded page 5: 100 jobs
+2026-07-28 13:55:45 | INFO | Page 5: 47 new jobs
+2026-07-28 13:55:45 | INFO | Collected 408 new Reed jobs.
+2026-07-28 13:55:45 | INFO | Saved 408 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\reed\incoming_reed.csv
+2026-07-28 13:55:46 | INFO | Historical Reed dataset updated: 12100 jobs.
+2026-07-28 13:55:46 | INFO | ============================================================
+2026-07-28 13:55:46 | INFO | Cleaning Reed dataset...
+2026-07-28 13:55:46 | INFO | ============================================================
+2026-07-28 13:55:47 | INFO | Loaded 12100 Reed jobs.
+2026-07-28 13:55:47 | INFO | Removed 0 duplicate jobs.
+2026-07-28 13:55:47 | INFO | Saved 12100 cleaned Reed jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\reed_clean.csv
+2026-07-28 13:55:47 | INFO | ============================================================
+2026-07-28 13:55:47 | INFO | Reed cleaning completed.
+2026-07-28 13:55:47 | INFO | ============================================================
+2026-07-28 13:55:47 | INFO | ======================================================================
+2026-07-28 13:55:47 | INFO | STARTING DATASET MERGE
+2026-07-28 13:55:47 | INFO | ======================================================================
+2026-07-28 13:55:48 | INFO | Loaded Adzuna: (6525, 18)
+2026-07-28 13:55:48 | INFO | Loaded Reed: (12100, 18)
+2026-07-28 14:06:32 | INFO | Loaded 12100 existing Reed IDs.
+2026-07-28 14:06:34 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 14:06:34 | INFO | Loaded 12100 existing Reed IDs.
+2026-07-28 14:06:34 | INFO | Existing Reed IDs: 12100
+2026-07-28 14:06:35 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 14:06:35 | INFO | Page 1: 91 new jobs
+2026-07-28 14:06:36 | INFO | Downloaded page 2: 100 jobs
+2026-07-28 14:06:36 | INFO | Page 2: 91 new jobs
+2026-07-28 14:06:36 | INFO | Downloaded page 3: 100 jobs
+2026-07-28 14:06:36 | INFO | Page 3: 29 new jobs
+2026-07-28 14:06:36 | INFO | Downloaded page 4: 100 jobs
+2026-07-28 14:06:36 | INFO | Page 4: 0 new jobs
+2026-07-28 14:06:36 | INFO | No new jobs on this page. Stopping update.
+2026-07-28 14:06:36 | INFO | Collected 211 new Reed jobs.
+2026-07-28 14:06:36 | INFO | ============================================================
+2026-07-28 14:06:36 | INFO | Reed Updater Started
+2026-07-28 14:06:36 | INFO | ============================================================
+2026-07-28 14:06:36 | INFO | Loaded 12100 existing Reed IDs.
+2026-07-28 14:06:36 | INFO | Existing Reed IDs: 12100
+2026-07-28 14:06:38 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 14:06:38 | INFO | Page 1: 91 new jobs
+2026-07-28 14:06:38 | INFO | Downloaded page 2: 100 jobs
+2026-07-28 14:06:38 | INFO | Page 2: 91 new jobs
+2026-07-28 14:06:38 | INFO | Downloaded page 3: 100 jobs
+2026-07-28 14:06:38 | INFO | Page 3: 29 new jobs
+2026-07-28 14:06:38 | INFO | Downloaded page 4: 100 jobs
+2026-07-28 14:06:38 | INFO | Page 4: 0 new jobs
+2026-07-28 14:06:38 | INFO | No new jobs on this page. Stopping update.
+2026-07-28 14:06:38 | INFO | Collected 211 new Reed jobs.
+2026-07-28 14:06:38 | INFO | Saved 211 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\reed\incoming_reed.csv
+2026-07-28 14:06:39 | INFO | Historical Reed dataset updated: 12311 jobs.
+2026-07-28 14:06:39 | INFO | ============================================================
+2026-07-28 14:06:39 | INFO | Cleaning Reed dataset...
+2026-07-28 14:06:39 | INFO | ============================================================
+2026-07-28 14:06:40 | INFO | Loaded 12311 Reed jobs.
+2026-07-28 14:06:40 | INFO | Removed 0 duplicate jobs.
+2026-07-28 14:08:50 | INFO | Loaded 12311 existing Reed IDs.
+2026-07-28 14:08:52 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 14:08:52 | INFO | Loaded 12311 existing Reed IDs.
+2026-07-28 14:08:52 | INFO | Existing Reed IDs: 12311
+2026-07-28 14:08:53 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 14:08:53 | INFO | Page 1: 0 new jobs
+2026-07-28 14:08:53 | INFO | No new jobs on this page. Stopping update.
+2026-07-28 14:08:53 | INFO | Collected 0 new Reed jobs.
+2026-07-28 14:08:53 | INFO | ============================================================
+2026-07-28 14:08:53 | INFO | Reed Updater Started
+2026-07-28 14:08:53 | INFO | ============================================================
+2026-07-28 14:08:54 | INFO | Loaded 12311 existing Reed IDs.
+2026-07-28 14:08:54 | INFO | Existing Reed IDs: 12311
+2026-07-28 14:08:55 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 14:08:55 | INFO | Page 1: 0 new jobs
+2026-07-28 14:08:55 | INFO | No new jobs on this page. Stopping update.
+2026-07-28 14:08:55 | INFO | Collected 0 new Reed jobs.
+2026-07-28 14:08:55 | INFO | No new Reed jobs found.
+2026-07-28 14:10:59 | INFO | ============================================================
+2026-07-28 14:10:59 | INFO | Reed Updater Started
+2026-07-28 14:10:59 | INFO | ============================================================
+2026-07-28 14:10:59 | INFO | Loaded 12311 existing Reed IDs.
+2026-07-28 14:10:59 | INFO | Existing Reed IDs: 12311
+2026-07-28 14:11:00 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 14:11:00 | INFO | Page 1: 12 new jobs
+2026-07-28 14:11:01 | INFO | Downloaded page 2: 100 jobs
+2026-07-28 14:11:01 | INFO | Page 2: 0 new jobs
+2026-07-28 14:11:01 | INFO | No new jobs on this page. Stopping update.
+2026-07-28 14:11:01 | INFO | Collected 12 new Reed jobs.
+2026-07-28 14:11:01 | INFO | Saved 12 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\reed\incoming_reed.csv
+2026-07-28 14:11:01 | INFO | Historical Reed dataset updated: 12323 jobs.
+2026-07-28 14:11:02 | INFO | ============================================================
+2026-07-28 14:11:02 | INFO | Cleaning Reed dataset...
+2026-07-28 14:11:02 | INFO | ============================================================
+2026-07-28 14:11:02 | INFO | Loaded 12323 Reed jobs.
+2026-07-28 14:11:02 | INFO | Removed 0 duplicate jobs.
+2026-07-28 14:11:03 | INFO | Saved 12323 cleaned Reed jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\reed_clean.csv
+2026-07-28 14:11:03 | INFO | ============================================================
+2026-07-28 14:11:03 | INFO | Reed cleaning completed.
+2026-07-28 14:11:03 | INFO | ============================================================
+2026-07-28 14:11:03 | INFO | ======================================================================
+2026-07-28 14:11:03 | INFO | STARTING DATASET MERGE
+2026-07-28 14:11:03 | INFO | ======================================================================
+2026-07-28 14:11:03 | INFO | Loaded Adzuna: (6525, 18)
+2026-07-28 14:11:03 | INFO | Loaded Reed: (12323, 13)
+2026-07-28 14:11:04 | INFO | Merged dataset: (18848, 13)
+2026-07-28 14:11:04 | INFO | Rows removed (missing required fields): 0
+2026-07-28 14:11:04 | INFO | Duplicate jobs removed: 230
+2026-07-28 14:11:04 | INFO | Generated internal job IDs.
+2026-07-28 14:11:04 | INFO | --------------------------------------------------
+2026-07-28 14:11:04 | INFO | MERGE SUMMARY
+2026-07-28 14:11:04 | INFO | --------------------------------------------------
+2026-07-28 14:11:04 | INFO | Total Jobs: 18,618
+2026-07-28 14:11:04 | INFO | Adzuna Jobs: 6,525
+2026-07-28 14:11:04 | INFO | Reed Jobs: 12,093
+2026-07-28 14:11:04 | INFO | Average Salary Available: 16,343
+2026-07-28 14:11:04 | INFO | Jobs without salary: 2,275
+2026-07-28 14:11:04 | INFO | Date Range: 2019-10-16 11:16:35 -> 2026-07-28 00:00:00
+2026-07-28 14:11:04 | INFO | --------------------------------------------------
+2026-07-28 14:11:05 | INFO | Master dataset saved to:
+C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\master_jobs.csv
+2026-07-28 14:11:05 | INFO | Final Shape: (18618, 14)
+2026-07-28 14:11:05 | INFO | ======================================================================
+2026-07-28 14:11:05 | INFO | MERGE COMPLETED SUCCESSFULLY
+2026-07-28 14:11:05 | INFO | ======================================================================
+2026-07-28 14:11:05 | INFO | ============================================================
+2026-07-28 14:11:05 | INFO | Reed Updater Completed
+2026-07-28 14:11:05 | INFO | ============================================================
+2026-07-28 14:20:42 | INFO | ============================================================
+2026-07-28 14:20:42 | INFO | Reed Updater Started
+2026-07-28 14:20:42 | INFO | ============================================================
+2026-07-28 14:20:42 | INFO | Loaded 12323 existing Reed IDs.
+2026-07-28 14:20:42 | INFO | Existing Reed IDs: 12323
+2026-07-28 14:20:44 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 14:20:44 | INFO | Page 1: 91 new jobs
+2026-07-28 14:20:44 | INFO | Downloaded page 2: 100 jobs
+2026-07-28 14:20:44 | INFO | Page 2: 92 new jobs
+2026-07-28 14:20:44 | INFO | Downloaded page 3: 100 jobs
+2026-07-28 14:20:44 | INFO | Page 3: 82 new jobs
+2026-07-28 14:20:45 | INFO | Downloaded page 4: 100 jobs
+2026-07-28 14:20:45 | INFO | Page 4: 88 new jobs
+2026-07-28 14:20:45 | INFO | Downloaded page 5: 100 jobs
+2026-07-28 14:20:45 | INFO | Page 5: 4 new jobs
+2026-07-28 14:20:45 | INFO | Collected 357 new Reed jobs.
+2026-07-28 14:20:45 | INFO | Saved 357 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\reed\incoming_reed.csv
+2026-07-28 14:20:46 | INFO | Historical Reed dataset updated: 12680 jobs.
+2026-07-28 14:20:46 | INFO | ============================================================
+2026-07-28 14:20:46 | INFO | Cleaning Reed dataset...
+2026-07-28 14:20:46 | INFO | ============================================================
+2026-07-28 14:20:46 | INFO | Loaded 12680 Reed jobs.
+2026-07-28 14:20:46 | INFO | Removed 0 duplicate jobs.
+2026-07-28 14:20:47 | INFO | Saved 12680 cleaned Reed jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\reed_clean.csv
+2026-07-28 14:20:47 | INFO | ============================================================
+2026-07-28 14:20:47 | INFO | Reed cleaning completed.
+2026-07-28 14:20:47 | INFO | ============================================================
+2026-07-28 14:20:47 | INFO | ======================================================================
+2026-07-28 14:20:47 | INFO | STARTING DATASET MERGE
+2026-07-28 14:20:47 | INFO | ======================================================================
+2026-07-28 14:20:48 | INFO | Loaded Adzuna: (6525, 18)
+2026-07-28 14:20:48 | INFO | Loaded Reed: (12680, 13)
+2026-07-28 14:20:48 | INFO | Merged dataset: (19205, 13)
+2026-07-28 14:20:48 | INFO | Rows removed (missing required fields): 0
+2026-07-28 14:20:48 | INFO | Duplicate jobs removed: 251
+2026-07-28 14:20:48 | INFO | Generated internal job IDs.
+2026-07-28 14:20:49 | INFO | --------------------------------------------------
+2026-07-28 14:20:49 | INFO | MERGE SUMMARY
+2026-07-28 14:20:49 | INFO | --------------------------------------------------
+2026-07-28 14:20:49 | INFO | Total Jobs: 18,954
+2026-07-28 14:20:49 | INFO | Adzuna Jobs: 6,525
+2026-07-28 14:20:49 | INFO | Reed Jobs: 12,429
+2026-07-28 14:20:49 | INFO | Average Salary Available: 16,550
+2026-07-28 14:20:49 | INFO | Jobs without salary: 2,404
+2026-07-28 14:20:49 | INFO | Date Range: 2019-10-16 11:16:35 -> 2026-07-28 00:00:00
+2026-07-28 14:20:49 | INFO | --------------------------------------------------
+2026-07-28 14:20:50 | INFO | Master dataset saved to:
+C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\master_jobs.csv
+2026-07-28 14:20:50 | INFO | Final Shape: (18954, 14)
+2026-07-28 14:20:50 | INFO | ======================================================================
+2026-07-28 14:20:50 | INFO | MERGE COMPLETED SUCCESSFULLY
+2026-07-28 14:20:50 | INFO | ======================================================================
+2026-07-28 14:20:50 | INFO | ============================================================
+2026-07-28 14:20:50 | INFO | Reed Updater Completed
+2026-07-28 14:20:50 | INFO | ============================================================
+2026-07-28 14:33:46 | INFO | Loaded 12680 existing Reed IDs.
+2026-07-28 14:33:47 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 14:33:47 | INFO | Loaded 12680 existing Reed IDs.
+2026-07-28 14:33:47 | INFO | Existing Reed IDs: 12680
+2026-07-28 14:33:49 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 14:33:49 | INFO | Page 1: 89 new jobs
+2026-07-28 14:33:49 | INFO | Downloaded page 2: 100 jobs
+2026-07-28 14:33:49 | INFO | Page 2: 92 new jobs
+2026-07-28 14:33:49 | INFO | Downloaded page 3: 100 jobs
+2026-07-28 14:33:49 | INFO | Page 3: 79 new jobs
+2026-07-28 14:33:49 | INFO | Downloaded page 4: 100 jobs
+2026-07-28 14:33:49 | INFO | Page 4: 0 new jobs
+2026-07-28 14:33:49 | INFO | No new jobs on this page. Stopping update.
+2026-07-28 14:33:49 | INFO | Collected 260 new Reed jobs.
+2026-07-28 14:33:49 | INFO | ============================================================
+2026-07-28 14:33:49 | INFO | Reed Updater Started
+2026-07-28 14:33:49 | INFO | ============================================================
+2026-07-28 14:33:50 | INFO | Loaded 12680 existing Reed IDs.
+2026-07-28 14:33:50 | INFO | Existing Reed IDs: 12680
+2026-07-28 14:33:51 | INFO | Downloaded page 1: 100 jobs
+2026-07-28 14:33:51 | INFO | Page 1: 89 new jobs
+2026-07-28 14:33:51 | INFO | Downloaded page 2: 100 jobs
+2026-07-28 14:33:51 | INFO | Page 2: 92 new jobs
+2026-07-28 14:33:52 | INFO | Downloaded page 3: 100 jobs
+2026-07-28 14:33:52 | INFO | Page 3: 79 new jobs
+2026-07-28 14:33:52 | INFO | Downloaded page 4: 100 jobs
+2026-07-28 14:33:52 | INFO | Page 4: 0 new jobs
+2026-07-28 14:33:52 | INFO | No new jobs on this page. Stopping update.
+2026-07-28 14:33:52 | INFO | Collected 260 new Reed jobs.
+2026-07-28 14:33:52 | INFO | Saved 260 new jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\raw\reed\incoming_reed.csv
+2026-07-28 14:33:53 | INFO | Historical Reed dataset updated: 12940 jobs.
+2026-07-28 14:33:53 | INFO | ============================================================
+2026-07-28 14:33:53 | INFO | Cleaning Reed dataset...
+2026-07-28 14:33:53 | INFO | ============================================================
+2026-07-28 14:33:53 | INFO | Loaded 12940 Reed jobs.
+2026-07-28 14:33:53 | INFO | Removed 0 duplicate jobs.
+2026-07-28 14:33:54 | INFO | Saved 12940 cleaned Reed jobs to C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\reed_clean.csv
+2026-07-28 14:33:54 | INFO | ============================================================
+2026-07-28 14:33:54 | INFO | Reed cleaning completed.
+2026-07-28 14:33:54 | INFO | ============================================================
+2026-07-28 14:33:54 | INFO | ======================================================================
+2026-07-28 14:33:54 | INFO | STARTING DATASET MERGE
+2026-07-28 14:33:54 | INFO | ======================================================================
+2026-07-28 14:33:55 | INFO | Loaded Adzuna: (6525, 18)
+2026-07-28 14:33:55 | INFO | Loaded Reed: (12940, 13)
+2026-07-28 14:33:55 | INFO | Merged dataset: (19465, 13)
+2026-07-28 14:33:55 | INFO | Rows removed (missing required fields): 0
+2026-07-28 14:33:55 | INFO | Duplicate jobs removed: 258
+2026-07-28 14:33:55 | INFO | Generated internal job IDs.
+2026-07-28 14:33:55 | INFO | --------------------------------------------------
+2026-07-28 14:33:55 | INFO | MERGE SUMMARY
+2026-07-28 14:33:55 | INFO | --------------------------------------------------
+2026-07-28 14:33:55 | INFO | Total Jobs: 19,207
+2026-07-28 14:33:55 | INFO | Adzuna Jobs: 6,525
+2026-07-28 14:33:55 | INFO | Reed Jobs: 12,682
+2026-07-28 14:33:55 | INFO | Average Salary Available: 16,775
+2026-07-28 14:33:55 | INFO | Jobs without salary: 2,432
+2026-07-28 14:33:55 | INFO | Date Range: 2019-10-16 11:16:35 -> 2026-07-28 00:00:00
+2026-07-28 14:33:55 | INFO | --------------------------------------------------
+2026-07-28 14:33:56 | INFO | Master dataset saved to:
+C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\master_jobs.csv
+2026-07-28 14:33:56 | INFO | Final Shape: (19207, 14)
+2026-07-28 14:33:56 | INFO | ======================================================================
+2026-07-28 14:33:56 | INFO | MERGE COMPLETED SUCCESSFULLY
+2026-07-28 14:33:56 | INFO | ======================================================================
+2026-07-28 14:33:56 | INFO | ============================================================
+2026-07-28 14:33:56 | INFO | Reed Updater Completed
+2026-07-28 14:33:56 | INFO | ============================================================
+2026-07-29 18:28:24 | INFO | ======================================================================
+2026-07-29 18:28:24 | INFO | STARTING NLP PREPROCESSING
+2026-07-29 18:28:24 | INFO | ======================================================================
+2026-07-29 18:28:25 | INFO | Loaded 19,207 jobs.
+2026-07-29 18:28:25 | INFO | Cleaning job titles...
+2026-07-29 18:28:37 | INFO | Cleaning job descriptions...
+2026-07-29 18:30:57 | INFO | ======================================================================
+2026-07-29 18:30:57 | INFO | STARTING NLP PREPROCESSING
+2026-07-29 18:30:57 | INFO | ======================================================================
+2026-07-29 18:30:58 | INFO | Loaded 19,207 jobs.
+2026-07-29 18:30:58 | INFO | Cleaning job titles...
+2026-07-29 18:31:03 | INFO | Cleaning job descriptions...
+2026-07-29 18:31:22 | INFO | NLP dataset saved to:
+C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\master_jobs_nlp.csv
+2026-07-29 18:31:22 | INFO | ======================================================================
+2026-07-29 18:31:22 | INFO | NLP PREPROCESSING COMPLETED
+2026-07-29 18:31:22 | INFO | ======================================================================
+2026-07-29 18:57:47 | INFO | ======================================================================
+2026-07-29 18:57:47 | INFO | STARTING NLP PREPROCESSING
+2026-07-29 18:57:47 | INFO | ======================================================================
+2026-07-29 18:57:48 | INFO | Loaded 19,207 jobs.
+2026-07-29 18:57:48 | INFO | Cleaning job titles...
+2026-07-29 18:57:53 | INFO | Cleaning job descriptions...
+2026-07-29 18:58:12 | INFO | NLP dataset saved to:
+C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\master_jobs_nlp.csv
+2026-07-29 18:58:12 | INFO | ======================================================================
+2026-07-29 18:58:12 | INFO | NLP PREPROCESSING COMPLETED
+2026-07-29 18:58:12 | INFO | ======================================================================
+2026-07-29 22:21:20 | INFO | ======================================================================
+2026-07-29 22:21:20 | INFO | STARTING NLP PREPROCESSING
+2026-07-29 22:21:20 | INFO | ======================================================================
+2026-07-29 22:21:21 | INFO | Loaded 19,207 jobs.
+2026-07-29 22:21:21 | INFO | Cleaning job titles...
+2026-07-29 22:21:24 | INFO | Cleaning job descriptions...
+2026-07-29 22:21:32 | INFO | NLP dataset saved to:
+C:\Users\Visakh H S\Labour_Market_Intelligence\data\processed\master_jobs_nlp.csv
+2026-07-29 22:21:32 | INFO | ======================================================================
+2026-07-29 22:21:32 | INFO | NLP PREPROCESSING COMPLETED
+2026-07-29 22:21:32 | INFO | ======================================================================
